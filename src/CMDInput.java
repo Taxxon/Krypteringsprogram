@@ -24,5 +24,7 @@ public class CMDInput {
         } else if (args.length > 3) {
             System.out.println("Jag orkar inte, stänger ner.");
         }
+
+        GUIDesign gui = new GUIDesign();
     }
 }
