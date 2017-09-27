@@ -25,6 +25,13 @@ public class CMDInput {
             System.out.println("Jag orkar inte, stänger ner.");
         }
 
-        GUIDesign gui = new GUIDesign();
+        //GUIDesign gui = new GUIDesign();
+        BitWiseCoord test = new BitWiseCoord(180, 202);
+        test.getHigh();
+        test.getLow();
+        test.setHigh(10);
+        test.setLow(20);
+        test.getHigh();
+        test.getLow();
     }
 }
