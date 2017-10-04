@@ -1,3 +1,5 @@
+package Sprints;
+
 /**
  * Created by Emil Käck on 2017-09-20.
  */

@@ -1,3 +1,5 @@
+package Sprints;
+
 import java.io.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -43,7 +45,7 @@ public class fileCopy {
             return;
         }
     }
-
+/**
     public static void textCopy(String fil) {
         try {
             FileWriter fw = new FileWriter(fil);
@@ -56,5 +58,5 @@ public class fileCopy {
             System.out.println("Kan inte hitta fil, stänger ner");
             return;
         }
-    }
+    }**/
 }

@@ -1,3 +1,5 @@
+package Sprints;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -13,7 +15,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
  */
 public class GUIDesign extends Canvas {
 
-    JFrame frame;
+    JFrame firstFrame;
     Image img;
     Image bild;
     Graphics bdg;
@@ -23,11 +25,11 @@ public class GUIDesign extends Canvas {
         LoadImageApp();
         Dimension dim = new Dimension(600, 600);
         setPreferredSize(dim);
-        frame = new JFrame("Encryption Program");
-        frame.add(this);
-        frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+        firstFrame = new JFrame("Encryption Program");
+        firstFrame.add(this);
+        firstFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        firstFrame.pack();
+        firstFrame.setVisible(true);
         this.repaint();
     }
 

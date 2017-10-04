@@ -1,3 +1,5 @@
+package Sprints;
+
 /**
  * Created by Emil Käck on 2017-08-30.
  * A program that test's arguments that it gets from the command interpreter.
@@ -25,7 +27,7 @@ public class CMDInput {
             System.out.println("Jag orkar inte, stänger ner.");
         }
 
-        //GUIDesign gui = new GUIDesign();
+        Sprints.GUIDesign gui = new Sprints.GUIDesign();
         BitWiseCoord test = new BitWiseCoord(180, 202);
         test.getHigh();
         test.getLow();
